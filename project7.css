@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(26, 26, 55);
+}
+#heading{
+    display: flex;
+    justify-content: center;
+
+
+}
+#head{
+    font-family: cursive;
+    font-size: 50px;
+    color: white;
+}
+
+#drum{
+    height: 54px;
+    position:relative;
+    top: 15px;
+    left: 10px;
+    border-radius: 50%;
+}
+#papa{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 20vh;
+}
+.drum{
+    height: 11%;
+    width: 11%;
+    max-width: 150px;
+    background-color: white;
+    border: 10px solid rgb(53, 53, 110);
+    border-radius: 15px;
+    display: flex;
+}
+.image{
+    height: 100px;
+    width: 90%;
+}
+.in{
+    font-size: 45px;
+    position: relative;
+    /* top: -25px; */
+    right: 44px;
+    color: rgb(210, 63, 63);
+    text-shadow: 2px 2px white;
+
+}
